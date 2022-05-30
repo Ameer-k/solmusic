@@ -1,0 +1,262 @@
+.nav-main{
+    background: #08192d;
+}
+.logo{
+    font-size: 22px;
+}
+.color-design{
+    color: #dc3545;
+}
+.nav-center,.nav-right{
+    font-size: 16px;
+}
+.tog-bar{
+    background-color: #4c4c4c;
+    margin: 0px auto;
+    text-align: end;
+
+}
+.menu{
+    cursor: pointer;
+}
+.nav-right a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-right a:last-child{
+    color: #dc3545;
+}
+.nav-right a:first-child{
+    border-right: 1px solid #fff;
+    opacity: 0.7;
+}
+.nav-center a{
+    text-decoration: none;
+    color: #fff;
+}
+.tog-bar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.bg-col{
+    background-color: #222222;
+}
+
+
+.items{
+    display: none;
+}
+.drop-down{
+    position: relative;
+}
+
+.drop-down:hover .items{
+    display: block;
+}
+.items{
+    background-color: #fff;
+    padding: 25px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    z-index: 999;
+}
+.items a{
+    display: block;
+    color: #000;
+    padding-bottom: 10px;
+}
+/* 
+    carousel items
+*/
+.car-main{
+    width: 100%;
+    height: 600px;
+    background-color: #0a183d;
+}
+
+.listen h1,.music h1{
+    font-size: 70px;
+    width: 50%;
+}
+.listen p,.music p{
+    width: 63%;
+}
+
+.third-content{
+    width: 100%;
+    min-height: 400px;
+    padding: 100px;
+}
+.try-btn{
+    background-color: #fc0254;
+    border-radius: 50px;
+}
+.third-left-content h1{
+    font-size: 60px;
+}
+.third-right-content p{
+    width: 95%;
+    font-size: 17px;
+    line-height: 28px;
+    color: #6a7080;
+}
+.how-head{
+    font-size: 60px;
+    margin-bottom: 90px;
+}
+.pad{
+background-color: #fc0254;
+width:60px;
+height:60px;
+border-radius: 100%;
+position: relative;
+margin-bottom: 35px;
+}
+.c1 img{
+    transform: rotateY(180deg);
+}
+.c1 img,.c2 img,.c3 img{
+    width: 80%;
+    z-index: 999;
+    position: relative;
+    left: 30px;
+    top: 15px;
+}
+.cards{
+    background-color: #0a183d;
+    padding: 120px;
+}
+.c1 p, .c2 p,.c3 p{
+    margin-top: 20px;
+    color: #6a7080;
+    line-height: 28px;
+}
+
+
+.concept{
+    padding: 100px;
+}
+.concept-cont{
+    margin-bottom: 70px;
+}
+.concept-cont h2 {
+    font-size: 60px;
+    width: 90%;
+}
+.concept-cont p{
+    width: 88%;
+    line-height: 28px;
+    color: #6a7080;
+}
+.con-pimg{
+    padding-right: 120px;
+    margin-top: 30px;
+}
+.con-i p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left:30px ;
+}
+.con-i img{
+    border-radius: 40px;
+}
+
+
+.subscription{
+    background-color: #0a183d;
+    padding: 170px;
+}
+
+.sub-c1 h3{
+    font-size: 55px;
+    width: 75%;
+}
+.sub-c1 p:nth-child(2){
+    color: #fc0254;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.sub-c1 p:nth-child(3){
+    font-size: 15px;
+    color: #6a7080;
+    width: 94%; 
+    margin-bottom: 60px;
+}
+.sub-c1 a{
+    padding: 25px 65px;
+    color: #fff;
+    background-color: #fc0254;
+    border-radius: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.sub-c2{
+    background-color: #1c294a;
+    border-radius: 30px;
+    padding: 70px 140px;
+}
+.sub-c2 ul{
+    line-height: 46px;
+    font-size: 20px;
+    list-style: none;
+}
+.sub-c2 img{
+    width: 10%;
+    padding: 5px;
+    background-color: #fc0254;
+    border-radius: 100%;
+    margin-right: 30px;
+}
+
+.premium{
+    padding: 150px 120px;
+}
+
+.premium-cont h2{
+    font-size: 60px;
+}
+.premium-cont p{
+    width: 92%;
+    color: #6a7080;
+    line-height: 28px;
+    font-size: 15px;
+}
+
+.premium-i{
+    text-align: center;
+    margin-top: 50px;
+}
+.premium-i img{
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+
+.footer{
+    background-color: #0a183d;
+    padding: 100px;
+}
+.foot-icon p{
+    font-size: 10px;
+    color: #6a7080;
+}
+.foot-icon .fa{
+    color: #6a7080;
+    margin-right: 25px;
+    font-size: 18px;
+}
+.f1 h5,.f2 h5,.f3 h5{
+    color: #fff;
+}
+.f1 a,.f2 a,.f3 a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #6a7080;
+    margin-top: 10px;
+}

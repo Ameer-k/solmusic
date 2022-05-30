@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["3xsT8dv"]); }
+
+__d("StoriesHomeRootQuery$Parameters",[],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:"4200338673375588",metadata:{},name:"StoriesHomeRootQuery",operationKind:"query",text:null}};e.exports=a}),null);
+__d("StoriesHomeRoot.entrypoint",["JSResourceForInteraction","StoriesHomeRootQuery$Parameters","WebPixelRatio"],(function(a,b,c,d,e,f,g){"use strict";var h={INITIAL_ROW_COUNT:3,ITEMS_PER_ROW:6};a={getPreloadProps:function(){var a={bucketsCount:h.ITEMS_PER_ROW*h.INITIAL_ROW_COUNT,scale:d("WebPixelRatio").get()};return{queries:{storiesHomeRootQueryRef:{parameters:c("StoriesHomeRootQuery$Parameters"),variables:a}}}},root:c("JSResourceForInteraction")("StoriesHomeRoot.react").__setRef("StoriesHomeRoot.entrypoint")};g["default"]=a}),98);
